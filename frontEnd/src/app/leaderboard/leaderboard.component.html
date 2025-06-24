@@ -1,0 +1,17 @@
+<div class="leaderboard-container">
+  <h2>🏆 Leaderboard</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Wins</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let player of leaderboard">
+        <td>{{ player.username }}</td>
+        <td>{{ player.wins }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
